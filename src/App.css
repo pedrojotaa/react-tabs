@@ -1,12 +1,38 @@
-main{
+main {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-section{
+section {
   background-color: aliceblue;
   width: 90vw;
   max-width: 600px;
   padding: 1rem;
+}
+
+.container_btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.job_btn {
+  border: none;
+  margin: 0.5rem 1.5rem;
+  padding: .5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.job_btn:hover {
+  color: rgb(33, 175, 175);
+  border-bottom: 0.3rem solid rgb(33, 175, 175);
+}
+
+.active_btn {
+  color: rgb(33, 175, 175);
+  border-bottom: 0.3rem solid rgb(33, 175, 175);
 }
